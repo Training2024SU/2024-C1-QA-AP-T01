@@ -38,7 +38,7 @@ shopee
 //div[@class='line-clamp-2 break-words min-h-[2.5rem] text-sm'][normalize-space()='Para Xiaomi Redmi A3 13C 12C A1 10C 10A 9T Nota 13 12 11 11S 10 9 9S 8 9A 9C Poco X3 C65 Mi 11 12 13 Lite 12T 11T 10T 13 Pro Cartoon Kuromi Papa Soporte De Teléfono Estuche']
 
 koaj
-//img[@title='Jean Slim']
+(//*[@id="product_list"]//*[@title="Jean skinny fit tiro bajo"])[1]
 
 
 
@@ -52,7 +52,7 @@ shopee
 
 Koaj
 (//*[@id="quantity_wanted_p"]//*[@class="product_quantity_down"])[1]
-(//*[@id="quantity_wanted_p"]//*[@class="product_quantity_up"])
+(//*[@id="quantity_wanted_p"]//*[@class="product_quantity_up"])[1]
 (//input[contains(@class, 'color-option')] | //a[contains(text(), 'gris')])[1][1]
 
 
