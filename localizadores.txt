@@ -1,0 +1,69 @@
+
+localizador para filtrar
+shopee
+//*[@class="_o6QSo" and contains(@data-tracking, 'Celulares')]
+
+koaj
+//*[@id="st_mega_menu_wrap"]//*[text()='Hombre']
+
+
+
+
+
+
+
+
+
+
+localizador seleccionar una imagen
+shopee
+//*[@src="https://down-co.img.susercontent.com/file/sg-11134201-22120-etkdo3pijykv55_tn.webp"]
+
+koaj
+//img[@src="https://cdn.koaj.co/217786-thickbox_default/jean-slim.jpg"]
+
+
+
+
+
+
+
+
+
+
+
+
+localizador cualquier producto
+shopee
+//div[@class='line-clamp-2 break-words min-h-[2.5rem] text-sm'][normalize-space()='Para Xiaomi Redmi A3 13C 12C A1 10C 10A 9T Nota 13 12 11 11S 10 9 9S 8 9A 9C Poco X3 C65 Mi 11 12 13 Lite 12T 11T 10T 13 Pro Cartoon Kuromi Papa Soporte De Teléfono Estuche']
+
+koaj
+//img[@title='Jean Slim']
+
+
+
+
+
+
+localizador por color y cantidad
+shopee
+//*[@class='sApkZm SkhBL1 selection-box-unselected' and @aria-label='White']
+//*[@class='suQW3X' and @aria-label='Increase']
+
+Koaj
+(//*[@id="quantity_wanted_p"]//*[@class="product_quantity_down"])[1]
+(//*[@id="quantity_wanted_p"]//*[@class="product_quantity_up"])
+(//input[contains(@class, 'color-option')] | //a[contains(text(), 'gris')])[1][1]
+
+
+
+
+localizador de agregar a carrito
+shopee
+//*[@class="btn btn-tinted btn--l YuENex a_JvBi"]
+
+koaj
+//*[@name="Submit" and span[text()='Añadir al carrito']]
+
+
+
